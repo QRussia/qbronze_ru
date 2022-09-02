@@ -72,7 +72,7 @@ Bronze-Qiskit was released by Abuzer Yakaryilmaz in February 2021.
 
 ### Video lectures
 
-The recording lectures were prepared by Abuzer Yakaryilmaz, Özlem Salehi Köken, and Anastasija Trizna (QLatvia) in August 2020. New recordings will be uploaded in Spring 2021.
+The recording lectures were prepared by Abuzer Yakaryilmaz, Özlem Salehi Köken, and Anastasija Trizna (QLatvia) in August 2020.
 
 ### Bronze-Qiskit 2021
 
