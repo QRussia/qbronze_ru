@@ -2,8 +2,6 @@
 
 ## Перевод Bronze-Qiskit от [QWorld](https://qworld.net)
 
-**Bronze** is our introductory tutorial on _**quantum computing and quantum programming**_ created in October 2018.
-
 **Bronze-Qiskit** - учебное пособие по квантовому программированию на языке программирования [**Qiskit**](https://qiskit.org) от IBM.
 
 Bronze-Qiskit работает через Jupyter notebook, в каждой странице есть множество задач по программированию, которые позволяют получить практический опыт. Мы рассматриваем Bronze как учебную лабораторию, в которой вы можете изучать основы квантовых вычислений и квантового программирования на практике. Bronze уже использовался в более чем 50 семинарах ([самый свежий список](http://qworld.net/workshop-bronze/#list)) в рамках QWorld.
