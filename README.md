@@ -1,101 +1,50 @@
 ![](qworld/images/readme-logo.jpg)
 
-## [QWorld](https://qworld.net)'s Bronze-Qiskit
+## Перевод Bronze-Qiskit от [QWorld](https://qworld.net)
 
-**Bronze** is our introductory tutorial on _**quantum computing and quantum programming**_ created in October 2018.
+**Bronze-Qiskit** - учебное пособие по квантовому программированию на языке программирования [**Qiskit**](https://qiskit.org) от IBM.
 
-**Bronze-Qiskit** is the version of Bronze using [**Qiskit**](https://qiskit.org) as the quantum programming framework. It was released in February 2021 with the support of [**IBM Quantum**](https://www.ibm.com/quantum-computing/).
+Bronze-Qiskit работает через Jupyter notebook, в каждой странице есть множество задач по программированию, которые позволяют получить практический опыт. Мы рассматриваем Bronze как учебную лабораторию, в которой вы можете изучать основы квантовых вычислений и квантового программирования на практике. Bronze уже использовался в более чем 50 семинарах ([список](http://qworld.net/workshop-bronze/#list)) в рамках QWorld.
 
-Bronze is a collection of Jupyter notebooks, and each notebook has many programming tasks to provide hands-on experiences. We see Bronze as a laboratory where you can learn the basics of quantum computing and quantum programming by doing. Bronze has already been used in more than 50 workshops ([the most recent list](http://qworld.net/workshop-bronze/#list)) under QWorld. As a pedagogical strategy, we skip to use complex numbers to keep the tutorial simpler. 
+Мы - [QRussia](https://qworld.net/qrussia/), часть QWorld, перевели данное учебное пособие на русский язык. Оригинал на английском языке вы сможете найти [здесь](https://gitlab.com/qworld/bronze-qiskit).
 
-### Prerequisite
+### Начальные требования
 
-The only prerequisite is to know the basics of programming (variables and basic data types, loops, and conditionals). Any previous experience in python will be helpful. If you do not have any such experince, you can check our notebooks on python before starting the tutorial.
+Единственное необходимое условие - знание основ программирования (переменные и типы данных, циклы и условия). Любой опыт работы с python будет полезен. Если вы не знаете этот язык программирования, ничего страшного, в Bronze-Qiskit есть отдельный раздел про python.
 
-Bronze also has notebooks on the basic math to review your knowledge on the simple arithmetic operations on vectors and matrices.
+### Структура
 
-### Bronze-Qiskit's sections
+- Python (для быстрого ознакомления);
+- Базовая математика (для быстрого ознакомления);
+- Классические системы: биты, подбрасывание монет, вероятностные состояния и операторы, корреляция и управляемые операторы;
+- Квантовые системы с Qiskit:
+    - основы Qiskit: проектирование схем, визуализация и моделирование;
+    - основы квантования: квантовое подбрасывание монет и оператор Адамара, квантовые состояния и операторы, визуализация кубита, суперпозиция и измерения;
+    - квантовые операторы на одном кубите (вращения и отражения) и квантовая томография;
+    - запутывание и основные квантовые протоколы, сверхплотное кодирование и квантовая телепортация;
+    - алгоритм поиска Гровера.
 
-- Python (for a quick review)
-- Basic math (for a quick review)
-- Classical systems: bits, coin-flipping, probabilistic state and operators, composite systems, correlation, and controlled operators
-- Quantum systems with Qiskit
-    - Qiskit basics: circuit design, visualization, and simulation
-    - quantum basics: quantum coin-flipping and Hadamard operator, quantum states and opeators, visualization of a real-valued qubit, superposition and measurements
-    - quantum operators on a real-valued single qubit (rotations and reflections) and quantum tomography
-    - entanglement and basic quantum protocols superdense coding and quantum teleportation
-    - Grover's search algorithm
+## Установка
 
-Our following elementrary level tutorial _Silver_ is under revision now, and we will start to prepare the advanced level tutorial Gold in 2021.
-
-## Contribution
-
-Please make a pull request or create an issue for _reporting typo_ or _your corrections_.
-
-Please create an issue for _your questions_, _initiating a discussion_, or _proposing a contribution_.
-
-_Bronze is being developed under [QEducation departmant](https://qworld.net/qeducation/) of QWorld._
-
-## Installation
-
-Follow the instructions given in the [installation file](installation.pdf)!
+Инструкция по установке [тут](installation.pdf)!
 
 <small>
 
-**Using Binder:** _You may [launch Bronze in the cloud with binder](https://mybinder.org/v2/gl/qworld%2Fbronze-qiskit/HEAD?urlpath=lab/tree/START.ipynb) but **please be aware of that**_ 
-- _each time a new session is created, which takes some time to be initiated, and all changes are lost when ending the session; and,_
-- _the session might be terminated if a new tab is not opened within 10 minutes._
+**Использование Binder:** _Вы можете [запустить Bronze в облаке используя binder](https://mybinder.org/v2/gl/qworld%2Fbronze-qiskit/HEAD?urlpath=lab/tree/START.ipynb), но **будьте внимательны**,_
+при каждом перезапуске создается новая сессия, что занимает определенный промежуток времени, также все ваши изменения будут стерты при завершении сессии;
+сессия может быть прервана, если таб с биндером не использовался более 10 минут.
+Для того, чтобы запустить Bronze в облаке, открываете [сайт](https://mybinder.org/), в поле "GitHub repository name or URL" вставляете URL текущего репозитория и нажимаете на "launch". В течение 5-7 минут у вас запустится облако с готовой Bronze.
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/qworld%2Fbronze-qiskit/HEAD?urlpath=lab/tree/START.ipynb)
 </small>
 
-## License
+## Лицензия
 
-The text and figures are licensed under the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0), available at https://creativecommons.org/licenses/by/4.0/legalcode. 
+Текст и картинки лицензированы Creative Commons Attribution 4.0 International Public License (CC-BY-4.0), доступна тут https://creativecommons.org/licenses/by/4.0/legalcode.
 
-The code snippets in the notebooks are licensed under Apache License 2.0, available at http://www.apache.org/licenses/LICENSE-2.0.
+Часть кода лицензирована Apache License 2.0, доступна тут http://www.apache.org/licenses/LICENSE-2.0.
 
-## Acknowledgements
+## Благодарность
 
-We use [MathJax](https://www.mathjax.org) to display mathematical expressions on html files (e.g., exercises).
+Bronze был составлен [Абузером Йакарылмазом](http://abu.lu.lv) (QWorld & QLatvia) в октябре 2018 года. 
 
-We use open source interactive tool [quantumgame](http://play.quantumgame.io) for showing quantum coin flipping experiments.
-
-## Credits
-
-Bronze was created by [Abuzer Yakaryilmaz](http://abu.lu.lv) (QWorld & QLatvia) in October 2018, and it has been developed and maintained by him. 
-
-Özlem Salehi Köken (QWorld & QTurkey) and Maksims Dimitrijevs (QWorld & QLatvia) are the other contributors by preparing new notebooks and revising the existing notebooks.
-
-Bronze was publicly available on July 7, 2019.
-
-Bronze-Qiskit was released by Abuzer Yakaryilmaz in February 2021.
-
-### Video lectures
-
-The recording lectures were prepared by Abuzer Yakaryilmaz, Özlem Salehi Köken, and Anastasija Trizna (QLatvia) in August 2020.
-
-### Bronze-Qiskit 2021
-
-Agnieszka Wolska prepared the new graphics and logos.
-
-### Bronze 2020 & 2021
-
-We thank to the participants of QBronze workshops and [QTraining for Bronze program](https://qworld.net/qtraining-for-bronze-2020/) for their corrections and suggestions.
-
-### Bronze 2019
-
-We thank to the mentors and participants of [QDrive](https://qworld.net/qdrive/) for their very helpful corrections and suggestions.
-
-We thank Adam Glos (QWorld & QPoland) for his comments on Bronze 2018.
-
-### Bronze 2018
-
-We thank to Katrina Kizenbaha from Riga TechGirls for her revisions on our notebooks on python.
-
-We thank to Martins Kalis (QLatvia) for his technical comments on python, qiskit, and our notebooks.
-
-We thank to Maksims Dimitrijevs (QLatvia) for his careful reading and corrections on our notebooks.
-
-We thank to QLatvia's first members Martins Kalis, Maksims Dimitrijevs, Aleksejs Naumovs, Andis Draguns, and Matiss Apinis for their help and support.
-
-We thank to the students of [Faculty of Computing](https://www.df.lu.lv) (University of Latvia) attending quantum programming's meetings on each Friday (Fall 2018) for their comments while working with our notebooks.
+Bronze был опубликован 7 июля 2019 года.
